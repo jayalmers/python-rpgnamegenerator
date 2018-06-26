@@ -32,7 +32,7 @@ for i in range(len(pattern)):
 
 # If names[2] ends in 'e', let's strip it off
 if names[2][-1:] == 'e':
-  names[2] = names[2][:end]
+  names[2] = names[2][:-1]
 
 # Join all the parts into a coherent string
 name = ("The " + names[0] + " " + names[1] + " of " + names[2] + "ing " + names[3])
